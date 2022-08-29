@@ -1,0 +1,12 @@
+.layout{
+    position:relative;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+main{
+    width: 100vw;
+    max-width: 100vw;
+    height: calc(100vh - 50px);
+    overflow-x: hidden;
+}

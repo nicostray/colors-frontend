@@ -1,0 +1,15 @@
+.color__home{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    cursor:pointer;
+}
+
+.color__home:hover{
+    transform: scale(1.05);
+    transition: transform .2s ease-in-out;
+}
+
+.color__home:active{
+    background-color: red;
+}
