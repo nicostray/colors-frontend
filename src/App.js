@@ -7,10 +7,12 @@ import {
 } from "react-router-dom";
 import Home from './components/pages/Home';
 import Favoritos from './components/pages/Favoritos';
+import ToastContainerMod from './components/ToastContainerMod';
 
 function App() {
   return (
-    <BrowserRouter>
+    <div>
+      <BrowserRouter>
       <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -18,6 +20,8 @@ function App() {
           </Routes>
       </Layout>
     </BrowserRouter>
+    <ToastContainerMod />
+    </div>
   );
 }
 

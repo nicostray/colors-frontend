@@ -1,6 +1,8 @@
 :root{
     --background:#f0f0f0;
     --grey: #e7e7e7;
+    --greyBorder: rgb(162, 162, 162);
     --textGrey: #515151;
     --primaryColor: #8600e6;
+    --primaryColorBlack: #7607c5;
 }

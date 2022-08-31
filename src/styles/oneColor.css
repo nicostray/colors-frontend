@@ -1,0 +1,25 @@
+.oneColor{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.oneColor:hover{
+    transform: scale(1.15);
+    transition: transform .2s ease-in;
+}
+
+.oneColor:hover > p{
+    opacity: 1;
+}
+.oneColor p{
+    opacity: 0;
+    background-color: rgba(0,0,0,.5);
+    padding:2px 4px;
+    color:white;
+    border-radius: 5px;
+    transition: opacity .3s ease;
+}

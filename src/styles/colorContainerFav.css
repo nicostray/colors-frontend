@@ -1,0 +1,68 @@
+@import url('./__vars.css');
+.colorFav__container{
+    position:relative;
+}
+.colorFav__button{
+    position: absolute;
+    background-color: white;
+    color: rgb(252, 46, 46);
+    font-size: 1.3rem;
+    right: -15px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    z-index: 99;
+    box-shadow: 0px 0px 3px 0px #8a8a8a;
+    cursor: pointer;
+}
+
+.colorFav__button:hover{
+    background-color: rgb(251, 251, 251);
+}
+
+.colorContainerFav{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    justify-content: center;
+    gap: 20px;
+    margin:30px auto;
+    width: 75%;
+}
+
+.colorContainerFav-empty{
+    display:flex;
+    justify-content: center;
+    margin:20px auto;
+    width: 75%;
+}
+
+.colorContainerFav__noFav{
+    margin: 0 auto;
+    font-size: 1.2em;
+}
+
+@media(max-width: 1500px){
+    .colorContainerFav{
+        grid-template-columns: 200px 200px 200px 200px;
+    }
+}
+
+@media(max-width: 1100px){
+    .colorContainerFav{
+        grid-template-columns: 200px 200px 200px;
+    }
+}
+
+@media(max-width: 920px){
+    .colorContainerFav{
+        grid-template-columns: 200px 200px;
+        gap:40px;
+    }
+}
+
+@media(max-width: 590px){
+    .colorContainerFav{
+        grid-template-columns: 200px;
+        gap:20px;
+    }
+}

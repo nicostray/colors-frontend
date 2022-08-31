@@ -4,3 +4,29 @@
     grid-gap:10px;
     margin-bottom:30px;
 }
+
+@media(max-width: 700px){
+    .color__containerHome{
+        display:flex;
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        overflow: hidden;
+        flex-direction: column;
+        grid-gap:inherit;
+    }
+}
+
+@media(max-width: 360px){
+    .color__containerHome{
+        height: 250px;
+        width: 250px;
+    }
+}
+
+@media(max-width: 280px){
+    .color__containerHome{
+        height: 200px;
+        width: 200px;
+    }
+}
